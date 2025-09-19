@@ -38,7 +38,7 @@ test:
     - pip check
   requires:
     - pip
-    - boto3
+    - boto3 >=1.34.120,<2.0.0
 
 about:
   home: https://www.traceloop.com/openllmetry
@@ -46,6 +46,8 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
+  description: |
+    This library allows tracing any of AWS Bedrock's models prompts and completions sent with Boto3 to Bedrock.
   dev_url: https://github.com/traceloop/openllmetry
   doc_url: https://www.traceloop.com/docs/openllmetry/introduction
 
